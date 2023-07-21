@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="10dp" /> <!-- 원하는 radius 값으로 설정 -->
+            <solid android:color="@color/mainColor" /> <!-- 배경 색상 -->
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="14dp"
+                android:bottom="14dp" /> <!-- 그림자 크기 조정 -->
+            <corners android:radius="10dp" /> <!-- 원하는 radius 값으로 설정 -->
+        </shape>
+    </item>
+</selector>

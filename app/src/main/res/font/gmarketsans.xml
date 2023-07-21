@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res-auto">
+
+    <!-- Lighter Style -->
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="300"
+        android:font="@font/gmarketsanslight" />
+
+    <!-- Normal Style -->
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gmarketsansmedium" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/gmarketsansbold" />
+
+</font-family>

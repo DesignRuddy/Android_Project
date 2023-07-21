@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@color/landing_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="나에게 필요한 정책이 무엇이 있을까?"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/main1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGoPage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/subColor"
+                android:layout_marginLeft="300dp"
+                android:layout_marginBottom="10dp"
+                android:text="보러가기" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="#E3F4F3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="요즘 뜨는 기업 알아보고 취업 가보자고 ! "
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/main2" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGoPage3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/subColor"
+                android:layout_marginLeft="300dp"
+                android:layout_marginBottom="10dp"
+                android:text="보러가기" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@color/landing_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="소소한그룹을 소개합니다!"
+                android:fontFamily="@font/gmarketsansmedium"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/main3" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGoPage4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/subColor"
+                android:layout_marginLeft="300dp"
+                android:layout_marginBottom="10dp"
+                android:text="보러가기" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
